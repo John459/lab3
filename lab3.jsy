@@ -1,0 +1,12 @@
+const a = 1;
+const b = 2;
+const c = 15;
+const func = function f(x) {
+    jsy.print(a);
+    jsy.print(b);
+    jsy.print(c);
+    const ax = a * x;
+    const bx = b * x;
+    return  (ax + bx) > cx ? cx : f(x + 1);
+}
+f(2);
